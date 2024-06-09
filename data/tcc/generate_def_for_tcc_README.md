@@ -1,0 +1,1 @@
+Y:\tinycc-0.9.27\win32>tcc -impdef -v libgd.dll -o libgd.def
