@@ -5,6 +5,7 @@
 <p>此一可攜系統自帶 <a href="https://github.com/mdecycu/cmsite.git,">https://github.com/mdecycu/cmsite.git,</a> 以 cmsimde 作為 submodule.</p>
 <p>請 cmsite 設為 docs, 並設為 Github Pages 網頁根目錄.</p>
 <p>python -m pip install flask flask_cors <span class="tipue_search_content_bold">bs4</span> lxml pelican markdown leo pyopenssl</p><h1>Python</h1>
+<p>Python 3.12.1 仍可透過 python get-pip.py 安裝 pip.exe 但是 3.12.4 已經無法透過 get-pip.py 安裝 pip.exe.</p>
 <p>配合 Python 3.12.4 建立 pip.bat 用來安裝模組:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">REM 配合 Python 3.12.4 不再使用 pip.exe 而是使用 python -m pip install 安裝模組
 REM 採用以下建立 pip.bat, 放在 Y:\ 可以用 pip 加上一個或多個模組名稱
@@ -49,11 +50,18 @@ for i in py_list:
     # delete msi file
     os.remove(dir_path + "\\" + i + ".msi")
     os.remove(path + "\\" + i + ".msi")</pre>
-<p></p>
-<h1>NX1872</h1>
+<p></p><h1>NX1872</h1>
 <p>使用 NX1872 中的 NXOpen Python 必須使用 Python 3.7.1.</p><h1>CoppeliaSim</h1>
-<p>目前使用 CoppeliaSim 4.5.1 rev4 版本</p><h1>Webots</h1>
-<h1>Replit</h1>
+<p>目前使用 CoppeliaSim 4.5.1 rev4 版本</p>
+<p><a href="https://github.com/CoppeliaRobotics">https://github.com/CoppeliaRobotics</a> </p><h1>Webots</h1>
+<p>目前使用 Webots R2023b 版本</p>
+<p><a href="https://github.com/cyberbotics/webots">https://github.com/cyberbotics/webots</a></p>
+<p>User Guide:</p>
+<p style="padding-left: 30px;"><a href="https://cyberbotics.com/doc/guide/index?version=R2023b">https://cyberbotics.com/doc/guide/index?version=R2023b</a></p>
+<p>Reference Manual:</p>
+<p style="padding-left: 30px;"><a href="https://cyberbotics.com/doc/reference/index?version=R2023b">https://cyberbotics.com/doc/reference/index?version=R2023b</a> </p>
+<p>Webots for Automobile:</p>
+<p style="padding-left: 30px;"><a href="https://cyberbotics.com/doc/automobile/index?version=R2023b">https://cyberbotics.com/doc/automobile/index?version=R2023b</a> </p><h1>Replit</h1>
 <p><a href="https://replit.com">https://replit.com</a> </p>
 <p dir="auto">On Replit:</p>
 <p dir="auto">.replit: python3 main.py</p>
